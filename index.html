@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hey,<br>There</h1>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/upscaled-4x-IMG_0289-removebg-preview.png" alt="Developer portrait">
+        </div>
+        <div class="specialization">
+            Specialized in Web Dev, UX/UI design, Data Analysis/Manipulation and ML/AI regression Models
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Personal Portfolio | UX/UI and Full stack</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Conrete strength improvement | Data Science and Visualization</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Personal Finance Dashboard Model | Python Web development and Data Analysis </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+            <div class="experience-item">
+                <h3>Experience</h3>
+                <p>Student Web Developer, UX/UI for media communication | August 2024 - Present</p>
+                <p>Student Assistant | August 2023 - August 2024</p>
+                <p>Reserach Assistant | February 2023 - August 2023</p>
+            </div>
+            <div class="experience-item">
+                <h3>Education</h3>
+                <p>Bachelor's in Computer Science</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea rows="5" placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+            <div class="contact-info">
+                <h3>Get in touch</h3>
+                <p>Email: gagandes@ttu.edu</p>
+                <p>Location: Lubbock, TX, USA</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/scroll.js"></script>
+</body>
+</html>
